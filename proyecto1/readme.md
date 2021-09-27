@@ -16,6 +16,7 @@ bundle install
 ``` sh
 bundle exec ruby http.rb
 ```
+Go to http://localhost:4567
 
 ## Routes
 - GET `/entries/`
@@ -35,3 +36,6 @@ bundle exec ruby http.rb
 - DELETE `/entries/id/:id`
   - Where `:id` is the id on the database given by MongoDB
   - Delete the entry
+
+## Disclaimer
+- Based on https://x-team.com/blog/how-to-create-a-ruby-api-with-sinatra/
